@@ -1,2 +1,3 @@
 # Programacion-Web-Con-Javascript
-Diplomado
+Ejercicio Basicos 2
+
