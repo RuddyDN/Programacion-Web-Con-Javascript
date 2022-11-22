@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background: #0C486E;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 1px;
+}
+ul{
+    padding: 0;
+} 
+li{
+    padding-left: .7rem;
+    list-style: none;
+}
+h1,h3{
+    text-transform: uppercase;
+}
+h3{
+    color: #000;
+    position: relative;
+}
+p{
+    margin: 0;
+}
+article{
+    min-height: 120px;
+}
+h3::before{
+    content: " ";
+    width: 120px;
+    height: 5px;
+    display: block;
+    background: #0C486E;
+    position: absolute;
+    top: 30px;
+}
+#titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+.parrafo-prof{
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor{
+    display: flex;
+    width: 595px;
+    margin: 4rem auto;
+    height: 690px;
+}
+.seccion1{
+    background: #fff;
+    width: 43%;
+    color: #0C486E;
+    display: flex;
+    flex-direction: column;
+}
+.seccion1{
+    padding: 1rem;
+}
+.seccion2{
+    padding: 1.5rem;
+}
+.seccion2{
+    background: #61ADBA;
+    color: #fff;
+}
+.contenedor-imagen{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.foto{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.negras{
+    font-weight: bold;
+}.listado-contacto{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.icono-lista{
+    margin-right: 0.8rem;
+}
