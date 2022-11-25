@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Sono', 'san-serif';
+}
+body{
+    font-family: 'Playfair Display', serif;
+    background: #0C486E;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 1px;
+}
+ul{
+    padding: 0;
+} 
+li{
+    padding-left: .7rem;
+    list-style: none;
+}
+h1,h3{
+    text-transform: uppercase;
+}
+h3{
+    color: #000;
+    position: relative;
+}
+p{
+    margin: 0;
+}
+article{
+    min-height: 120px;
+}
+h3::before{
+    content: " ";
+    width: 120px;
+    height: 5px;
+    display: block;
+    background: #0C486E;
+    position: absolute;
+    top: 25px;
+}
+#titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+.parrafo-prof{
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor{
+    display: flex;
+    width: 595px;
+    margin: 4rem auto;
+    height: 690px;
+}
+.seccion1{
+    background: #fff;
+    width: 43%;
+    color: #0C486E;
+    display: flex;
+    flex-direction: column;
+}
+.seccion1{
+    padding: 1rem;
+}
+.seccion2{
+    padding: 1.5rem;
+}
+.seccion2{
+    background: #61ADBA;
+    color: #fff;
+}
+.contenedor-imagen{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.foto{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.negras{
+    font-weight: bold;
+}.listado-contacto{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.icono-lista{
+    margin-right: 0.5rem;
+}
+.nav-sup{
+    height: 50px;
+    display: flex;
+    background-color: #b90504;
+    justify-content: center;
+}
+.nav-sup ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.nav-sup li{
+    width: 9rem;
+    height: 30px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 3px solid #e8e8e8;
+}
+.nav-sup a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-sup li:hover{
+    transition: all 0.4s;
+    color: wheat;
+    border-radius: 10px;
+}
