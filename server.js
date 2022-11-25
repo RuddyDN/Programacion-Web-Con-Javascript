@@ -3,7 +3,8 @@ const server = express();
 const path = require('path');
 const port = 8100;
 
-server.use("/assets",express.static(path.resolve(__dirname,"/assets")));
+server.use("/assets",express.static(path.resolve(__dirname,"assets")));
+server.use("/node_modules",express.static(path.resolve(__dirname,"node_modules")));
 server.get("/", function(req,res){
     res.sendFile(path.resolve(__dirname,"vistas","index.html"))
 });

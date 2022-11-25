@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Sono', 'san-serif';
+}
+
+/*Comienza el header*/
+#header{
+    display: flex;
+    align-items: center;
+    background-color: coral;
+    height: 50px;
+}
+#header span{
+    float: left;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+/*Finaliza el header*/
+
+.col-xl-3{
+    background-color: darkcyan;
+    height: 96vh;
+}
+.col-xl-9{
+    background-color: lightcoral;
+    height: 96vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-sm-7{flex:0 0 auto;width:58.33333333%;background-color: darkcyan}
+.col-sm-5{flex:0 0 auto;width:41.66666667%;background-color: lightcoral;}

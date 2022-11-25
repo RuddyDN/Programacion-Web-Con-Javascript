@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "express": "^4.18.2"
   },
   "scripts": {
@@ -8,7 +9,6 @@
   "name": "proyecto-final-itla",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
