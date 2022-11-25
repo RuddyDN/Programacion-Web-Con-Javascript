@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: 'Sono', 'san-serif';
+}
+
+/*Comienza el header*/
+#header{
+    display: flex;
+    align-items: center;
+    background-color: #a7c686;
+    height: 50px;
+    justify-content: center;
+}
+#header ul{
+    list-style: none;
+}
+#header span{
+    float: left;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+@media (width < 410px) {
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #header ul{
+        list-style: none;
+        border: 3px solid black;
+        background-color: #fcee8c;
+    }
+    #header span h3{
+        padding-top: 5px;
+        font-size: 1.2rem;
+        
+    }
+}
+/*Finaliza el header*/
+
+/*Dimensiones*/
+.col-4{
+    flex:0 0 auto;
+    width:33.33333333%;
+    background-color: #3c515d;
+    height: 94vh;
+}
+.col-8{
+    flex:0 0 auto;
+    width:66.66666667%;
+    background-color: #40957f;
+    height: 94vh;
+
+}
+/* Comienzo Lado Izquierdo*/
+.img-container{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 10px auto;
+}
+.avatar{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.name{
+    font-family: 'Sono', 'san-serif';
+    font-weight: 550;
+    text-align: center;
+    font-size: 2rem;
+}
+.desciption{
+    margin: 10px 50px;
+    font-family: 'Sono', 'san-serif';
+    text-align: justify;
+    font-size: 3rem;
+}
+.desciption p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sono', 'san-serif';
+    font-size: 3rem;
+}
+/*Final Lado Izquierdo*/
+/*Comienzo Lado Derecho*/
+.concept{
+    border: 5px solid #f7efd8;
+    background-color: #c8c8a9;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 450;
+}
+.nav-lat{
+    display: flex;
+}
+.nav-lat ul li{
+    list-style: none;
+    margin-bottom: 55px;
+}
+.nav-lat a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    border: 5px solid #f7efd8;
+    background-color: #c8c8a9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.nav-lat a:hover{
+    transition: all 0.25s;
+    border-radius: 0;
+    color: #000;
+    border: 5px solid #f7efd8;
+    background-color: #942222;
+    
+}
+
+/*Final Lado Derecho*/
+
+
+
+
+/*Adaptando las dimensiones*/
+@media (width < 801px) {
+    .col-4{
+        flex:0 0 auto;
+        width: 35%;
+        background-color: #3c515d;
+        height: 97vh;
+    }
+    .col-8{
+        flex:0 0 auto;
+        background-color: #40957f;
+        width:65%;
+        height: 97vh;
+    }
+    .img-container{
+        display: flex;
+        width: 250px;
+        height: 250px;
+        margin: 10px auto;
+    }
+    .avatar{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .name{
+        font-family: 'Sono', 'san-serif';
+        font-weight: 550;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .desciption{
+        margin: 10px 0;
+        font-family: 'Sono', 'san-serif';
+        font-size: 35px;
+    }
+    .desciption p {
+        margin: 10px 0;
+        text-align: center;
+        font-family: 'Sono', 'san-serif';
+        font-size: 45px;
+    }
+    .concept{
+        border: 5px solid #f7efd8;
+        background-color: #c8c8a9;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 450;
+    }
+    .nav-lat{
+        display: flex;
+    }
+    .nav-lat ul li{
+        list-style: none;
+        margin-bottom: 50px;
+    }
+    .nav-lat a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 500;
+        color: #fff;
+        border: 5px solid #f7efd8;
+        background-color: #c8c8a9;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .nav-lat a:hover{
+        transition: all 0.25s;
+        border-radius: 0;
+        color: #000;
+        border: 5px solid #f7efd8;
+        background-color: #942222;
+        
+    }
+    
+}
+
+@media (width < 620px) {
+    .col-4{
+        flex:0 0 auto;
+        width: 45%;
+        background-color: #3c515d;
+        height: 97vh;
+    }
+    .col-8{
+        flex:0 0 auto;
+        background-color: #40957f;
+        width:55%;
+        height: 97vh;
+    }
+    .img-container{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+    }
+    .avatar{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .name{
+        font-family: 'Sono', 'san-serif';
+        font-weight: 550;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .desciption{
+        margin: 5px 0;
+        font-family: 'Sono', 'san-serif';
+        font-size: 15px;
+    }
+    .desciption p {
+        margin: 5px 0;
+        text-align: center;
+        font-family: 'Sono', 'san-serif';
+        font-size: 15px;
+    }
+    .concept{
+        border: 5px solid #f7efd8;
+        background-color: #c8c8a9;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 450;
+    }
+    .nav-lat{
+        display: flex;
+    }
+    .nav-lat ul li{
+        list-style: none;
+        margin-bottom: 57px;
+    }
+    .nav-lat a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        border: 5px solid #f7efd8;
+        background-color: #c8c8a9;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .nav-lat a:hover{
+        transition: all 0.25s;
+        border-radius: 0;
+        color: #000;
+        border: 5px solid #f7efd8;
+        background-color: #942222;
+        
+    }
+    
+}
+/*Final de las adaptaciones*/
+
+
+
