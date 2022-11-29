@@ -14,6 +14,7 @@ html{
     display: flex;
     background-color: #3c515d;
     justify-content: center;
+    width: 100vw;
 }
 .nav-sup ul{
     display: flex;
@@ -41,47 +42,36 @@ html{
     color: wheat;
     border-radius: 10px;
 }
-.titulo{
-    text-align: center;
-    text-transform: uppercase;
-}
-#mi-formulario{
-    text-align: center;
-}
 
-.btn{
-    padding: 0.5rem;
-    width: 100px;
-    background-color: #124F6B;
+.main1{
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section1{
+    background-color: blue;
+    width: 50%;
+    height: 700px;
+    margin-left: 5px;
+    border: 2px solid #000;
     color: #fff;
-    font-size: 0.8rem;
-    font-weight: 800;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 10px;
 }
-
-.btn:hover{
-    transition: all 1s;
-    background-color: white;
-    color: black;
+.section2{
+    background-color: red;
+    border: 2px solid #000;
+    width: 820%;
+    height: 50%;
+    color: #fff;
 }
-
-input[type=text]{
-    margin-top: 10px;
-    width: 15rem;
-    height: 1.5rem;
-    border-radius: 5px;
-    color: green;
-    font-size: 1rem;
-    padding: 0.5rem;
-    border-style: solid;
-    border-width: 5px;
-}
-.grupo-input > input:focus{
-    border-color: #124F6B;
-    
-}
-#info{
-    text-transform: uppercase;
-    font-size: 100px;
+.section3{
+    background-color: yellow;
+    height: 50%;
+    width: 820%;
+    border: 2px solid #000;
+    color: #fff;
 }

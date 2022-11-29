@@ -93,8 +93,8 @@ html{
 /*Final Lado Izquierdo*/
 /*Comienzo Lado Derecho*/
 .concept{
-    border: 5px solid #f7efd8;
-    background-color: #c8c8a9;
+    border: 5px solid rgb(64, 148, 125);
+    background-color: #3c515d;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -116,8 +116,8 @@ html{
     font-size: 30px;
     font-weight: 500;
     color: #fff;
-    border: 5px solid #f7efd8;
-    background-color: #c8c8a9;
+    border: 5px solid #40957f;
+    background-color: #3c515d;
     padding: 10px;
     border-radius: 10px;
 }

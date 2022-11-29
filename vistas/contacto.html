@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../assets/css/contacto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-sup">
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/maqueta">FlexBox</a></li>
+                <li><a href="/formulario">Formulario</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+         </nav>
+    </header>
+    <fieldset class="border">
+        <form class="formulario" id="Formulario">
+            <label for="">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Datos Aqui">
+
+            <label for="">Numero</label>
+            <input type="tel" name="Telefono" id="Telefono" placeholder="Datos Aqui">
+
+            <label for="">Correo</label>
+            <input type="email" name="Correo" id="Correo" placeholder="Datos Aqui">
+
+            <label for="">Motivo De Comunicacion</label>
+            <textarea name="Motivo" id="Motivo" cols="30" rows="10"></textarea>
+
+            <button type="submit" id="btn">Enviar</button>
+        </form>
+    </fieldset>
+
+    <script src="../assets/js/contacto.js"></script>
+</body>
+</html>

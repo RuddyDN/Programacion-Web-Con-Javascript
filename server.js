@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const path = require('path');
-const port = 8100;
+const port = 8200;
 
 server.use("/assets",express.static(path.resolve(__dirname,"assets")));
 server.use("/node_modules",express.static(path.resolve(__dirname,"node_modules")));
@@ -17,14 +17,8 @@ server.get("/curriculum",function(req,res){
 server.get("/maqueta",function(req,res){
     res.sendFile(path.resolve(__dirname,"vistas","maqueta.html"))
 })
-server.get("/for",function(req,res){
-    res.sendFile(path.resolve(__dirname,"vistas","for.html"))
-})
 server.get("/contacto",function(req,res){
     res.sendFile(path.resolve(__dirname,"vistas","contacto.html"))
-})
-server.get("/prompt",function(req,res){
-    res.sendFile(path.resolve(__dirname,"vistas","prompt.html"))
 })
 
 server.listen(port);
